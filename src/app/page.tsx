@@ -7,11 +7,11 @@ export default function Home() {
     <main className="min-h-screen pb-8">
       <Header />
       
-      {/* Shortlist Notice */}
+      {/* Official Nominations Banner */}
       <div className="mx-4 mt-6 mb-4 gradient-border p-[1px] rounded-xl">
         <div className="bg-[#1a1a1a] p-4 rounded-xl text-center">
           <p className="text-sm text-gray-300">
-            <span className="text-[#FFD700] font-bold">SHORTLISTS</span> - Full nominations TBA Jan 22
+            <span className="text-[#FFD700] font-bold">OFFICIAL NOMINATIONS</span> - 23 Categories
           </p>
         </div>
       </div>
@@ -26,10 +26,10 @@ export default function Home() {
       {/* Footer */}
       <footer className="mt-8 pt-8 border-t border-[#333] text-center">
         <p className="text-gray-500 text-sm">
-          Data from Oscar Shortlists 2026
+          98th Academy Awards Official Nominations
         </p>
         <p className="text-[#B8860B] text-xs mt-2">
-          Sinners & Wicked: For Good lead with 8 mentions each
+          Sinners leads with 10 nominations
         </p>
       </footer>
     </main>
